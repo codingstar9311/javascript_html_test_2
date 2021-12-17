@@ -59,7 +59,7 @@ ul li a img {
 
 .sidebar ul li a .fas {
     width: 30px;
-    color: #bdb8d7 !important
+    color: #bdb8d7;
 }
 
 .close-menu-icon {
@@ -89,7 +89,7 @@ i.far.fa-credit-card:hover {
 
 .sidebar ul li a .far {
     width: 30px;
-    color: #bdb8d7 !important
+    color: #bdb8d7;
 }
 
 .sidebar ul li:hover {
@@ -170,5 +170,59 @@ i.far.fa-credit-card:hover {
 }
 .card .card-header {
     padding: 0;
+}
+
+li.selected i, li.selected a {
+    color: red !important;
+}
+
+.education-row, .expertise-row {
+    box-shadow: rgb(0 0 0 / 24%) 0 3px 8px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.education-row .duration-wrapper {
+    background: #306cb0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.expertise-row .duration-wrapper {
+    background: #58b3c0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.duration-wrapper .duration {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.duration-wrapper .degree {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.education-row .title {
+    color: dodgerblue;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.expertise-row .title {
+    color: #58b3c0;
+    font-weight: bolder;
+    font-size: 2em;
 }
 
