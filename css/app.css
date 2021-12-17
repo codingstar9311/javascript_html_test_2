@@ -158,3 +158,17 @@ i.far.fa-credit-card:hover {
     width: 100%;
 }
 
+.card {
+    border: unset !important;
+    box-shadow: rgb(0 0 0 / 24%) 0 3px 8px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+.card .card-header {
+    padding: 0;
+}
+
