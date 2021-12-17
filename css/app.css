@@ -145,7 +145,8 @@ i.far.fa-credit-card:hover {
 }
 
 .open-menu-icon:hover {
-    color: red;
+    color: red !important;
+    transition: 0.1s;
 }
 
 .open-menubar-button {
