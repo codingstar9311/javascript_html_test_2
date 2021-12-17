@@ -154,3 +154,7 @@ i.far.fa-credit-card:hover {
     color: red !important;
 }
 
+.image-wrapper img {
+    width: 100%;
+}
+
